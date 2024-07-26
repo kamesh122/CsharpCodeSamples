@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kames\\source\\repos\\CSharpCodeChallenges\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj",
+      "projectUniqueName": "C:\\Users\\kames\\Source\\Repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj",
       "projectName": "CSharpCodeChallenges",
-      "projectPath": "C:\\Users\\kames\\source\\repos\\CSharpCodeChallenges\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj",
+      "projectPath": "C:\\Users\\kames\\Source\\Repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj",
       "packagesPath": "C:\\Users\\kames\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kames\\source\\repos\\CSharpCodeChallenges\\CSharpCodeChallenges\\obj\\",
+      "outputPath": "C:\\Users\\kames\\Source\\Repos\\CsharpCodeSamples\\CSharpCodeChallenges\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kames\\AppData\\Roaming\\NuGet\\NuGet.Config",
