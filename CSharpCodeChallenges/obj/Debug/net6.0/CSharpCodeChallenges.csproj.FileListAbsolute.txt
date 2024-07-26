@@ -1,0 +1,15 @@
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.exe
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.deps.json
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.runtimeconfig.json
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.dll
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\bin\Debug\net6.0\ref\CSharpCodeChallenges.dll
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.pdb
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.csproj.AssemblyReference.cache
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.AssemblyInfoInputs.cache
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.AssemblyInfo.cs
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.csproj.CoreCompileInputs.cache
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.dll
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\ref\CSharpCodeChallenges.dll
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.pdb
+C:\Users\kames\source\repos\CSharpCodeChallenges\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.genruntimeconfig.cache
