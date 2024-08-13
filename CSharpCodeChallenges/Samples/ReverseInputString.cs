@@ -18,15 +18,15 @@ namespace CSharpCodeChallenges.Samples
                 //reverse complete phrase
                 in_text = ReverseString(in_text, lindex, rindex);
 
-                //    //reverse each word in resultant reversed phrase
-                //    for (rindex = 0; rindex <= in_text.Length; rindex++)
+                //reverse each word in resultant reversed phrase
+                //for (rindex = 0; rindex <= in_text.Length; rindex++)
+                //{
+                //    if (rindex == in_text.Length || in_text[rindex] == ' ')
                 //    {
-                //        if (rindex == in_text.Length || in_text[rindex] == ' ')
-                //        {
-                //            in_text = ReverseString(in_text, lindex, rindex - 1);
-                //            lindex = rindex + 1;
-                //        }
+                //        in_text = ReverseString(in_text, lindex, rindex - 1);
+                //        lindex = rindex + 1;
                 //    }
+                //}
             }
             return in_text;
         }
