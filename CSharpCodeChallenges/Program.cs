@@ -28,14 +28,17 @@ Console.WriteLine("=====================================");
 CodeChallenges.removeduplicate("Hello");
 Console.WriteLine("=====================================");
 Console.WriteLine("Accept number:");
-var number = Convert.ToInt32(Console.ReadLine()); 
+var number = Convert.ToInt32(Console.ReadLine());
 CodeChallenges.FindPrime(number);
 Console.WriteLine("=====================================");
 
 CodeChallenges.SumOfDigits(1221);
 Console.WriteLine("=====================================");
+int[] arr  = { 2, 5, 3, 9, 4, 7 };
 
+CodeChallenges.FindSecondLargeInArray(arr);
 
+Console.WriteLine("=====================================");
 
 
 Console.ReadLine();

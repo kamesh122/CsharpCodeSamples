@@ -254,14 +254,25 @@ namespace CSharpCodeChallenges.Samples
              * */
             var result = false;
             if (number == 1) result = false;
-            if (number == 2) result = true;
             if (number % 2 == 0) result = false;
+            if (number == 2)  result = true;
+           
 
             var squareRoot = (int)Math.Floor(Math.Sqrt(number));
+            
+            var limit = Math.Ceiling(Math.Sqrt(number)); //hoisting the loop limit
 
-            for (int i = 3; i <= squareRoot; i += 2)
+            for (int i = 3; i <= limit; i += 2)
             {
-                if (number % i == 0) result = false;
+                if (number % i == 0)
+                {
+                    result = false;
+                }
+                else
+                {
+                    result=true;
+
+                }
             }
 
             if (result)
@@ -311,7 +322,11 @@ namespace CSharpCodeChallenges.Samples
                     max2 = i;
                 }
             }
-            Console.WriteLine(max2); ;
+            Console.WriteLine(max2); 
+
+            var secondheight = arr.OrderByDescending(x=>x).Distinct().Skip(1).Take(1).FirstOrDefault();
+
+            Console.WriteLine(secondheight);
         }
 
         // Q.13: How to find Third largest integer in an array using only one loop?
