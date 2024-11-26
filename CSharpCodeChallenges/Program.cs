@@ -9,42 +9,44 @@ string str = "Kamesh";
 //Console.WriteLine("Reverse String output without inbuilt function : " + reverseInputString.ReverseString(Input));
 //Console.ReadLine();
 
+
+CodeChallenges.VowelsCount();
+
+CodeChallenges.SumOfDigits();
+CodeChallenges.removeduplicate();
+
+CodeChallenges.ReverseString2();
+
+CodeChallenges.chkPalindrome();
+
+//int[] arr = { 2, 5, 3, 9, 4, 7 };
+
+//CodeChallenges.FindSecondLargeInArray(arr);
+
+
+CodeChallenges.Countcharacter("Hello");
+
+
 CodeChallenges.Stringhassamesetofwords();
-    CodeChallenges.ReverseString2(str);
-Console.WriteLine("=====================================");
-
-CodeChallenges.ReverseString(str);
-Console.WriteLine("=====================================");
 
 
-CodeChallenges.chkPalindrome(str);
-Console.WriteLine("=====================================");
-CodeChallenges.chkPalindrome("madam");
-Console.WriteLine("=====================================");
-CodeChallenges.ReverseWordOrder("Welcome to Csharp corner");
-Console.WriteLine("=====================================");
-CodeChallenges.ReverseWords("Welcome to Csharp corner");
-Console.WriteLine("=====================================");
-CodeChallenges.Countcharacter("Welcome to Csharp corner");
-Console.WriteLine("=====================================");
+//CodeChallenges.ReverseWordOrder("Welcome to Csharp corner");
+//Console.WriteLine("=====================================");
+//CodeChallenges.ReverseWords("Welcome to Csharp corner");
+//Console.WriteLine("=====================================");
+//CodeChallenges.Countcharacter("Welcome to Csharp corner");
+//Console.WriteLine("=====================================");
 
-CodeChallenges.Countcharacter("Welcome to Csharp corner");
-Console.WriteLine("=====================================");
 
-CodeChallenges.removeduplicate("Hello");
-Console.WriteLine("=====================================");
-Console.WriteLine("Accept number:");
-var number = Convert.ToInt32(Console.ReadLine());
-CodeChallenges.FindPrime(number);
-Console.WriteLine("=====================================");
 
-CodeChallenges.SumOfDigits(1221);
-Console.WriteLine("=====================================");
-int[] arr  = { 2, 5, 3, 9, 4, 7 };
+//CodeChallenges.removeduplicate("Hello");
+//Console.WriteLine("=====================================");
+//Console.WriteLine("Accept number:");
+//var number = Convert.ToInt32(Console.ReadLine());
+//CodeChallenges.FindPrime(number);
+//Console.WriteLine("=====================================");
 
-CodeChallenges.FindSecondLargeInArray(arr);
 
-Console.WriteLine("=====================================");
 
 
 Console.ReadLine();
