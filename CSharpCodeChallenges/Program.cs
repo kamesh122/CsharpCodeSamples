@@ -9,6 +9,7 @@ string str = "Kamesh";
 //Console.WriteLine("Reverse String output without inbuilt function : " + reverseInputString.ReverseString(Input));
 //Console.ReadLine();
 
+CodeChallenges.FindFirstNonRepeatingCharacter();
 
 CodeChallenges.VowelsCount();
 

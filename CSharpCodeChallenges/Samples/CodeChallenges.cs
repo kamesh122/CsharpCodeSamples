@@ -81,6 +81,40 @@ namespace CSharpCodeChallenges.Samples
             Console.WriteLine("=====================================");
         }
 
+        internal static void FindFirstNonRepeatingCharacter()
+        {
+            Console.WriteLine("Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.");
+            Console.WriteLine("Enter String");
+            string s = Console.ReadLine();
+
+            Dictionary<char, int> charCount = new Dictionary<char, int>();
+
+            foreach (char c in s)
+            {
+                if (charCount.ContainsKey(c))
+                    charCount[c]++;
+                else
+                    charCount[c] = 1;
+            }
+            bool noUniqueCharfound = true;
+
+            // Find the index of the first non-repeating character
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (charCount[s[i]] == 1)
+                {
+                    Console.WriteLine("First Unique String : {0} and  index : {1}", s[i], i);
+                    noUniqueCharfound=false;
+                    break;
+                }
+            }
+            if (noUniqueCharfound)
+                // No non-repeating character found
+                Console.WriteLine("First Unique String not Found : -1");
+
+            Console.WriteLine("=====================================");
+        }
+
         internal static void ReverseString2()
         {
             Console.WriteLine("Reverse a given String ");
@@ -114,7 +148,7 @@ namespace CSharpCodeChallenges.Samples
              * */
 
             Console.WriteLine("Check Given String is Palindrome or not");
-            Console.WriteLine("Sample input:- madam ; output:- Palindrome");            
+            Console.WriteLine("Sample input:- madam ; output:- Palindrome");
             Console.WriteLine("Enter a string: ");
             string str = Console.ReadLine().ToLower();
 
@@ -135,7 +169,7 @@ namespace CSharpCodeChallenges.Samples
             {
                 revesestring += str[i];
             }
-            flag = revesestring==str;
+            flag = revesestring == str;
             if (flag)
             {
                 Console.WriteLine(str + " is Palindrome");
@@ -239,7 +273,7 @@ namespace CSharpCodeChallenges.Samples
 
             Console.WriteLine("Countcharacter : input:- hello world ; output:- h - 1 , e - 1, l - 3 ");
 
-           Dictionary<char, int> characterCount = new Dictionary<char, int>(); 
+            Dictionary<char, int> characterCount = new Dictionary<char, int>();
 
 
             foreach (var c in str)
@@ -437,7 +471,7 @@ namespace CSharpCodeChallenges.Samples
 
             var secondheight = arr.OrderByDescending(x => x).Distinct().Skip(1).Take(1).FirstOrDefault();
 
-            Console.WriteLine("Second Largest Number in the Array is :{}",secondheight);
+            Console.WriteLine("Second Largest Number in the Array is :{}", secondheight);
 
             Console.WriteLine("=====================================");
 
