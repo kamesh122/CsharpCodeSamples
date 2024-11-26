@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kames\\Source\\Repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj": {}
+    "C:\\Users\\kames\\source\\repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kames\\Source\\Repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj": {
+    "C:\\Users\\kames\\source\\repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kames\\Source\\Repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj",
+        "projectUniqueName": "C:\\Users\\kames\\source\\repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj",
         "projectName": "CSharpCodeChallenges",
-        "projectPath": "C:\\Users\\kames\\Source\\Repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj",
+        "projectPath": "C:\\Users\\kames\\source\\repos\\CsharpCodeSamples\\CSharpCodeChallenges\\CSharpCodeChallenges.csproj",
         "packagesPath": "C:\\Users\\kames\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kames\\Source\\Repos\\CsharpCodeSamples\\CSharpCodeChallenges\\obj\\",
+        "outputPath": "C:\\Users\\kames\\source\\repos\\CsharpCodeSamples\\CSharpCodeChallenges\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kames\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -45,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

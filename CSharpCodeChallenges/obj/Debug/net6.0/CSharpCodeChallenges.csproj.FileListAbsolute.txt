@@ -17,7 +17,6 @@ C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\bin\Debug\net
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.deps.json
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.runtimeconfig.json
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.dll
-C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\bin\Debug\net6.0\ref\CSharpCodeChallenges.dll
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\bin\Debug\net6.0\CSharpCodeChallenges.pdb
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.csproj.AssemblyReference.cache
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.GeneratedMSBuildEditorConfig.editorconfig
@@ -28,3 +27,5 @@ C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\obj\Debug\net
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\obj\Debug\net6.0\ref\CSharpCodeChallenges.dll
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.pdb
 C:\Users\kames\Source\Repos\CsharpCodeSamples\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.genruntimeconfig.cache
+C:\Users\kames\source\repos\CsharpCodeSamples\CSharpCodeChallenges\obj\Debug\net6.0\CSharpCodeChallenges.sourcelink.json
+C:\Users\kames\source\repos\CsharpCodeSamples\CSharpCodeChallenges\obj\Debug\net6.0\refint\CSharpCodeChallenges.dll

@@ -27,6 +27,53 @@ namespace CSharpCodeChallenges.Samples
             Console.WriteLine("Actual Output : " + reversedstring);
         }
 
+        internal static void Stringhassamesetofwords()
+        {
+            string str1 = "kamesh is a Software Engineer";
+            string str2 = "Software Engineer kamesh is a";
+
+            // Split strings into words
+            var words1 = str1.Split(' ').OrderBy(word => word).ToArray();
+            var words2 = str2.Split(' ').OrderBy(word => word).ToArray();
+
+            var aa = words1.Intersect(words2).ToList();
+            var bb = words1.Except(words2).ToList();
+
+            if (aa.Count() == words1.Count())
+            {
+                Console.WriteLine("Matching");
+            }
+            else
+            {
+                Console.WriteLine(" not Matching");
+
+            }
+
+            // Compare the arrays of words (after sorting them alphabetically)
+            bool areEqual = words1.SequenceEqual(words2);
+
+
+
+            Console.WriteLine("Are the strings the same (ignoring word order)? " + areEqual);
+        }
+
+        internal static void ReverseString2(string str)
+        {
+            Console.WriteLine("Sample input:- hello ; output:- olleh");
+            Console.WriteLine("Actual input: " + str);
+            /* input:- hello ; output:- olleh
+             * input:- hello world ; output:- dlrow olleh
+             * 
+             * */
+            string revesestring = string.Empty;
+            for (int i = str.Length - 1; i >= 0; i--)
+            {
+                revesestring += str[i];
+            }
+
+            Console.WriteLine("expected Output : " + revesestring);
+        }
+
         // Q.2: How to find if the given string is a palindrome or not?
         internal static void chkPalindrome(string str)
         {
@@ -255,11 +302,11 @@ namespace CSharpCodeChallenges.Samples
             var result = false;
             if (number == 1) result = false;
             if (number % 2 == 0) result = false;
-            if (number == 2)  result = true;
-           
+            if (number == 2) result = true;
+
 
             var squareRoot = (int)Math.Floor(Math.Sqrt(number));
-            
+
             var limit = Math.Ceiling(Math.Sqrt(number)); //hoisting the loop limit
 
             for (int i = 3; i <= limit; i += 2)
@@ -270,7 +317,7 @@ namespace CSharpCodeChallenges.Samples
                 }
                 else
                 {
-                    result=true;
+                    result = true;
 
                 }
             }
@@ -322,9 +369,9 @@ namespace CSharpCodeChallenges.Samples
                     max2 = i;
                 }
             }
-            Console.WriteLine(max2); 
+            Console.WriteLine(max2);
 
-            var secondheight = arr.OrderByDescending(x=>x).Distinct().Skip(1).Take(1).FirstOrDefault();
+            var secondheight = arr.OrderByDescending(x => x).Distinct().Skip(1).Take(1).FirstOrDefault();
 
             Console.WriteLine(secondheight);
         }

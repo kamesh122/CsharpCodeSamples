@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpCodeChallenges")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b69cea7cea8e3ba0264da740a1cf485b0753c459")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpCodeChallenges")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpCodeChallenges")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

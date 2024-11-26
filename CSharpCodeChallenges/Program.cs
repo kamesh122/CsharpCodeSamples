@@ -9,8 +9,14 @@ string str = "Kamesh";
 //Console.WriteLine("Reverse String output without inbuilt function : " + reverseInputString.ReverseString(Input));
 //Console.ReadLine();
 
+CodeChallenges.Stringhassamesetofwords();
+    CodeChallenges.ReverseString2(str);
+Console.WriteLine("=====================================");
+
 CodeChallenges.ReverseString(str);
 Console.WriteLine("=====================================");
+
+
 CodeChallenges.chkPalindrome(str);
 Console.WriteLine("=====================================");
 CodeChallenges.chkPalindrome("madam");
