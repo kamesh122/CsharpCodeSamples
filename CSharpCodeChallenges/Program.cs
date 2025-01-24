@@ -9,26 +9,30 @@ string str = "Kamesh";
 //Console.WriteLine("Reverse String output without inbuilt function : " + reverseInputString.ReverseString(Input));
 //Console.ReadLine();
 
-CodeChallenges.FindFirstNonRepeatingCharacter();
+CodingTest.TestMethod();
 
-CodeChallenges.VowelsCount();
+//NewChaleenges.CorrectSentense();
 
-CodeChallenges.SumOfDigits();
-CodeChallenges.removeduplicate();
+//CodeChallenges.FindFirstNonRepeatingCharacter();
 
-CodeChallenges.ReverseString2();
+//CodeChallenges.VowelsCount();
 
-CodeChallenges.chkPalindrome();
+//CodeChallenges.SumOfDigits();
+//CodeChallenges.removeduplicate();
 
-//int[] arr = { 2, 5, 3, 9, 4, 7 };
+//CodeChallenges.ReverseString2();
 
-//CodeChallenges.FindSecondLargeInArray(arr);
+//CodeChallenges.chkPalindrome();
+
+////int[] arr = { 2, 5, 3, 9, 4, 7 };
+
+////CodeChallenges.FindSecondLargeInArray(arr);
 
 
-CodeChallenges.Countcharacter("Hello");
+//CodeChallenges.Countcharacter("Hello");
 
 
-CodeChallenges.Stringhassamesetofwords();
+//CodeChallenges.Stringhassamesetofwords();
 
 
 //CodeChallenges.ReverseWordOrder("Welcome to Csharp corner");
